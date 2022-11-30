@@ -1,0 +1,25 @@
+:root {
+    --corprimaria: white;
+    --corsecundaria: #3b5998;
+    --corterciaria: red;
+}
+svg {
+width: 50px;
+height: 50px;
+}
+
+button {
+border-radius: 10ex;
+padding: 15px;
+background-color: var(--corprimaria);
+border: 0;
+fill: var(--corsecundaria);
+position: relative;
+}
+span {
+    position: absolute;
+    background-color: var(--corterciaria);
+    border-radius: 20ex;
+    color: white;
+    padding: 5px;
+}
