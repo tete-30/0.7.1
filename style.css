@@ -18,8 +18,20 @@ position: relative;
 }
 span {
     position: absolute;
+    right: 10px;
+    top: 10px;
     background-color: var(--corterciaria);
     border-radius: 20ex;
     color: white;
+    padding: 5px;
+}
+.usuario {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 20px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
     padding: 5px;
 }
